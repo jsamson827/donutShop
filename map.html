@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>map</title>
+
+  <link href="css/bootstrap-social.css" rel="stylesheet">
+  <link href="font-awesome-4.5.0/css/font-awesome.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="css/landing-page.css" rel="stylesheet">
+  <!-- Custom Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Prata%7CPlayball" rel='stylesheet' type='text/css'>
+  <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <link href="css/custom.css" rel="stylesheet">
+</head>
+<body>
+
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top topnav" >
+    <div class="container topnav">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div id="topnav" class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand topnav" href="index.html"><img src="img/logo_fixed.png" alt="Donut Delights logo" height="100" width ="150"></a>
+      </div>
+      <div class="tag">
+        <h2 class="tagline">The finest in breakfast treats and coffees since 1971</h2>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="about.html">About Us</a>
+          </li>
+          <li>
+            <a href="map.html" class="active">Directions</a>
+          </li>
+          <li>
+            <a href="menu.html">Menu</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+
+  <div id="main1" class="container">
+    <div class="row">
+      <div id="social1" class="col-md-4">
+        <h1>Comments</h1>
+      </div>
+      <div id="gallery1" class="col-md-8">
+        <h1>Come See Us:</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div id="contact" class="col col-md-4">
+        <form id="my-form" class="form-horizontal" action="http://formspree.io/cisdonutfinal@mailinator.com" method="post">
+          <input type="hidden" value="SOME_aCCOUINT_ID"/>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input  type="text" class="form-control" id ="name" name="name" placeholder="Your Name Here" />
+            <span id="helpBlock1" class="helpBlock">This is for your name</span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-Mail:</label>
+            <input  type="email" class="form-control" id ="email" name="email" placeholder="address@email.com" />
+            <span id="helper" class="helpBlock">This is for your e-mail</span>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input  type="tel" class="form-control" id ="phone" name="phone" placeholder="Phone Number ex. (123) 456-7891" />
+            <span id="helpBlock" class="helpBlock">Phone Number Goes Here </span>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" rows="3"  id ="message" name="message" placeholder="Your Comments Here">   </textarea>
+          </div>
+
+          <button type="submit" class="btn btn-default">Submit</button>
+          <input type="hidden" name="_subject" value="New submission!" />
+          <input type="hidden" name="_next" value="http://parkland-cis152.github.io/FA15-jsamson-final/contact-thanks.html" />
+        </form>
+      </div>
+      <div id="map" class="col col-md-8">
+        <iframe width="650" height="488" frameborder="0" style="border:0"
+        src="https://www.google.com/maps/embed/v1/place?q=115%20W%20Main%20St%20%231%2C%20Urbana%2C%20IL%2061801&key=AIzaSyAvN66xBj5KfOGg7nLKp5zQXpOvVu7ckEA" allowfullscreen></iframe>
+
+
+        <span></span>
+        <p>
+          <br>
+          <br>
+          Donut Delights<br>
+          2112 Main Street Urbana , Illinois 61801<br>
+          (217)-555- 1234 <br>
+          <br>
+        </p>
+        <img class="img-rounded" src="img/frontSQ.jpg" alt="Store Front" />
+        <img class="img-rounded" id="filled2" src="img/choco.jpg" alt="Chocolate Sprinkle Donut" />
+      </div>
+    </div>
+  </div>
+
+
+  <div  class="container-fluid">
+    <div class="row">
+      <footer id="footer">
+        <div class="col-md-2">
+          <p>© 2015 Donut Delights</p>
+        </div>
+        <div class="col-md-2">
+          <p>Contact information: <a href="mailto:donutdelights@donutdelight.com"> donutshere@donutdelights.com</a></p>
+        </div>
+        <div class="col-md-2">
+          <a class="btn btn-block btn-social btn-sm btn-facebook-half-transparent" href="https://www.facebook.com/pc.community/"><span class="fa fa-facebook"></span>Follow us on Facebook</a>
+        </div>
+        <div class="col-md-2">
+          <a class="btn btn-block btn-social btn-sm btn-twitter-half-transparent" href="https://twitter.com/parklandcollege"><span class="fa fa-twitter"></span>Follow us on Twitter</a>
+        </div>
+        <div class="col-md-2">
+          <a class="btn btn-block btn-social btn-sm btn-instagram-half-transparent" href="https://www.instagram.com/donutdelight/"><span class="fa fa-instagram"></span>Follow us on Instagram</a>
+        </div>
+        <div class="col-md-2">
+          <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/parklandcollege"><span class="fa fa-twitter"></span></a>
+          <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/pc.community/"><span class="fa fa-facebook"></span></a>
+          <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/donutdelight/"><span class="fa fa-instagram"></span></a>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/jquery.validate.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/form.js"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-71290308-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
+</body>

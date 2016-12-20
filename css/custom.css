@@ -1,0 +1,198 @@
+/* Custom Css
+
+*/
+
+
+
+
+
+/*.navbar-header{
+  background-color:#BE763A;
+}*/
+.navbar-nav > li{
+  margin-left:3px;
+  margin-right:3px;
+}
+
+navbar{
+  background-color: #733603;
+}
+.navbar-default .navbar-nav li a{
+  color: #000;
+  background-color: #BE763A;
+  border-style: groove;
+  border-color:  #733603;
+}
+.navbar-default .active{
+  color: #921B32;
+}
+body.p{
+  font-family: 'Prata', serif;
+  color: #333;
+}
+body{
+  background-image: url(../img/bkg_op.jpg);
+  }
+body{
+  padding-top: 120px;
+}
+.tagline{
+  font-family: 'Playball', sans-serif;
+  color: #000;
+}
+h1{
+  font-family: 'Prata', serif;
+}
+h4 {
+  font-family: 'Prata', serif;
+}
+h2 {
+  font-family: 'Prata', serif;
+}
+
+body{
+  font-family: 'prata', serif;
+}
+.navbar-default {
+  background-color: #733603;
+  border-color: #BE763A;
+}
+.navbar-brand {
+  color: #777;
+}
+
+.navbar-default .navbar-brand:focus {
+  color: #5E5E5E;
+}
+.navbar > .active > a {
+  color: #921B32;
+}
+iframe{
+  border-top: 10px;
+}
+#main1{
+  background-color:#e6e6e6;
+}
+
+#main1 #social1{
+  height:100px;
+  background-color: #BE763A;
+  border-top-style: solid;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-width:thick;
+  border-color: #921B32;
+}
+#main1 #gallery1{
+  height:100px;
+  background-color: #BE763A;
+  border-style: solid;
+  border-width:thick;
+  border-color: #921B32;
+}
+
+#main-index{
+  background-color:#e6e6e6;
+}
+#main-index #gallery1{
+  height:100px;
+  background-color: #BE763A;
+  border-top-style: solid;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-width:thick;
+  border-color: #921B32;
+}
+#main-index #social1{
+  height:100px;
+  background-color: #BE763A;
+  border-style: solid;
+  border-width:thick;
+  border-color: #921B32;
+}
+#thanks{
+  height:100px;
+  background-color: #BE763A;
+  border-style: solid;
+  border-width:thick;
+  border-color: #921B32;
+}
+#social2{
+  border-right-style: solid;
+  border-radius: 0px;
+  border-right-width: thick;
+  border-color: #921B32;
+  padding-top: 10px;
+  height:auto;
+}
+
+.btn-lg{
+  background-color: #BE763A;
+  border-style: solid;
+  border-color: #921B32;
+  padding: 10px;
+  border-radius: 0;
+  color:#000;
+}
+#thx-btn{
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#thxpic{
+  padding: 10px;
+}
+#gallery2 .p{
+  padding: 10px;
+}
+
+#socialabt{
+
+  padding-top: 10px;
+}
+#galleryabt{
+
+  border-left-style: solid;
+  border-left-width: thick;
+  border-radius: 0px;
+  border-color: #921B32;
+  height:auto;
+}
+
+#map{
+  border-left-style: solid;
+  border-left-width: thick;
+  border-color: #921B32;
+  border-radius: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#bake{
+  padding: 10px;
+}
+#tale{
+  padding:10px;
+}
+#filled{
+  position:absolute;
+  right: 40px;
+  top: 10px;
+}
+#filled2{
+  position:absolute;
+  right: 40px;
+  bottom: 10px;
+}
+#my-form{
+  padding: 10px;
+}
+#fire{
+  padding-bottom: 10px;
+}
+
+#footer{
+  background-color: #733603;
+}
+.menu-sp{
+  padding: 10px;
+}
